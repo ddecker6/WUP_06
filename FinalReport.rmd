@@ -91,7 +91,7 @@ The P value is still small. There is still a difference, but there isn't as a dr
 
 
 ```{r}
-fisherXY(mydata$race,mydata$cappun,printAll = TRUE)
+fisherXY (mydata$race,mydata$cappun,printAll = TRUE)
 ```
 
 With this set of data we can see there is a difference between black race and the white race. In comparison to the master branch, there was a difference between each set of data. The only value that is significant is between white and black races. Other and black is close to being different, but it doesn't go under .5 It needs to be a significant P value. The more data there is, helps us to show differences. 
@@ -100,3 +100,4 @@ With this set of data we can see there is a difference between black race and th
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+When we looked at the more data side, we saw there was a difference between everyone. While we had around 2,000 data points in the master branch. While in this one we have around 800 data points. With more data we can find more differences, while in this data set we didn't find as many differences. 
