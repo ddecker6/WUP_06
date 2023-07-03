@@ -62,7 +62,16 @@ Looking at the tigerstats graphical data, we can observe that white people are m
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+### Numerical Summaries  
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+The whites are in favor with 65.10% of capital punishment, while 34.90% of whites oppose. 57.37% of blacks oppose capital punishment, with only 42.63% in favor. In the other category, we can see 55.20% oppose, with 44.80% in favor. Among these numerical summaries, we can see that of all the races, the black category oppose capital punishment the most, and white category is in favor in comparison to the other races.
 
 
 ## Now with More data
