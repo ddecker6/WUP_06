@@ -52,10 +52,10 @@ barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
 
-Looking at the tigerstats graphical data, we can observe that white people are more in favor of capital punishment in comparison to the other races being observed. While black people oppose capital punishment in comparison to the other races.
 
 ## Now with The Most data (fewer variables gives more data points)
 
+Looking at the tigerstats graphical data, we can observe that white people are more in favor of capital punishment in comparison to the other races being observed. While black people oppose capital punishment in comparison to the other races.
 
 
 ### Numerical Descriptive Results
@@ -71,10 +71,11 @@ colPerc(table1)
 ```
 
 
+
+
+## Now with More data 
+
 The whites are in favor with 65.10% of capital punishment, while 34.90% of whites oppose. 57.37% of blacks oppose capital punishment, with only 42.63% in favor. In the other category, we can see 55.20% oppose, with 44.80% in favor. Among these numerical summaries, we can see that of all the races, the black category oppose capital punishment the most, and white category is in favor in comparison to the other races.
-
-
-## Now with More data
 
 
 
@@ -96,11 +97,12 @@ The P-value is 2.2e-16, this is very low, which can further conclude there is a 
 fisherXY(mydata$race,mydata$cappun)
 ```
 
-Yes, white differ from the other categories. We can see there is a statistical difference. Every race is different from every other race in this data set. The white race still holds the highest in favor of capital punishment. 
 
 
 
 ## More data version
+
+Yes, white differ from the other categories. We can see there is a statistical difference. Every race is different from every other race in this data set. The white race still holds the highest in favor of capital punishment. 
 
 
 # Discussion and Conclusion
